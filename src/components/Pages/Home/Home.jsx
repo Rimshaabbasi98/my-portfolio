@@ -25,7 +25,7 @@ const Home = () => {
             speed={50}
             cursor={false}
             style={{ fontSize: '1.75em', display: 'inline-block', lineHeight: '1.5em' }}
-            repeat={1}
+            repeat={Infinity}
           />
         </p>
         <a
