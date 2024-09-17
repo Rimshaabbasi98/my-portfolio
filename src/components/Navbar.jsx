@@ -8,7 +8,7 @@ function Navbar() {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <div className="lg:w-[25%] w-full h-screen bg-gray-800 text-white fixed top-0 left-0 lg:flex lg:flex-col lg:justify-center lg:items-center lg:py-4 lg:pl-4 z-50">
+    <div className="lg:w-[25%] w-full h-screen bg-teal-500 text-white font-bold fixed top-0 left-0 lg:flex lg:flex-col lg:justify-center lg:items-center lg:py-4 lg:pl-4 z-50">
       {/* Mobile Menu Toggle (Hamburger Icon) */}
       <div className="lg:hidden p-4">
         <button onClick={toggleMenu} className="text-white">
@@ -18,7 +18,7 @@ function Navbar() {
 
       {/* Logo */}
       <div className="flex justify-center mt-4 mb-4 lg:mt-0">
-        <img src="/Favicon.png" alt="Logo" className="w-[80px]" />
+        <img src="/logo-white.png" alt="Logo" className="w-[80px]" />
       </div>
 
       {/* Navigation Menu */}
@@ -36,7 +36,7 @@ function Navbar() {
 function NavItem({ icon, label, closeMenu }) {
   return (
     <li className="w-full list-none">
-      <a href={`#${label.toLowerCase()}`} onClick={closeMenu} className="flex items-center px-8 py-4 border border-gray-600 rounded-lg hover:bg-gray-700">
+      <a href={`#${label.toLowerCase()}`} onClick={closeMenu} className="flex items-center px-8 py-4 border border-white rounded-lg hover:bg-teal-600">
         <span className="mr-2">{icon}</span>
         {label}
       </a>

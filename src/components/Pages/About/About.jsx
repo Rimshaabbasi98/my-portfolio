@@ -5,7 +5,8 @@ const About = () => {
   return (
     <section id="about" className="w-full h-auto bg-gray-100 py-12 lg:py-24">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">About Me</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">About Me   <span className="block h-1 w-24 bg-teal-500 mt-2 mx-auto rounded"></span>
+        </h2>
         
         <div className="flex flex-col lg:flex-row lg:space-x-8">
           {/* Qualifications */}
