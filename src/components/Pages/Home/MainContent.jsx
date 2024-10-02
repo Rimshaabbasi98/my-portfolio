@@ -5,14 +5,14 @@ import Contact from '../Contact/Contact';
 
 function MainContent() {
   return (
-    <div className="lg:w-[75%] w-full h-screen bg-gray-100 overflow-auto lg:ml-[25%] fixed top-0 left-0 z-10">
-      <section id="home" className="h-screen">
+    <div className="lg:w-[75%] w-full h-screen bg-gray-100 overflow-auto lg:ml-[25%] ml-0 fixed top-0 left-0 z-10">
+      <section id="home" className="lg:h-screen h-auto lg:mb-0 mb-12"> 
         <Home />
       </section>
-      <section id="about" className="h-screen">
+      <section id="about" className="lg:h-screen h-auto lg:mb-0 mb-12"> 
         <About />
       </section>
-      <section id="contact" className="h-screen">
+      <section id="contact" className="lg:h-screen h-auto lg:mb-0 mb-12"> 
         <Contact />
       </section>
       {/* Add other sections here */}
