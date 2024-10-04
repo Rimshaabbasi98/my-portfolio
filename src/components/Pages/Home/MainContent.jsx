@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './Home';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
+import Projects from '../MyProjects/Projects';
 
 function MainContent() {
   return (
@@ -15,8 +16,9 @@ function MainContent() {
       <section id="contact" className="lg:h-screen h-auto lg:mb-0 mb-12"> 
         <Contact />
       </section>
-      {/* Add other sections here */}
-    </div>
+      <section id="projects" className="lg:h-screen h-auto lg:mb-0 mb-12"> 
+        <Projects />
+      </section>    </div>
   );
 }
 
